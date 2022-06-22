@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <ToDo></ToDo>
+  <PWAPrompt></PWAPrompt>
+  <!--  <HelloWorld msg="Hello World"></HelloWorld>-->
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import ToDo from "./components/ToDo.vue";
+import PWAPrompt from "@/components/PWAPrompt.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    ToDo,
+    PWAPrompt,
+    // HelloWorld,
   },
 };
 </script>

@@ -5,6 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "watch": "vue-cli-service build --watch",
+    "serve-dist": "npx http-server dist",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -23,6 +25,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
+    "http-server": "^14.1.1",
     "prettier": "^2.4.1"
   }
 }
